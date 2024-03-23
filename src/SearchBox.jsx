@@ -8,7 +8,7 @@ import { red } from '@mui/material/colors';
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
 
-    const API_URL = "http://api.openweathermap.org/data/2.5/weather"
+    const API_URL = "https://api.openweathermap.org/data/2.5/weather"
     const API_KEY = "da411e1cc06c668b1a9782e87f191b16";
 
     let getWeatherInfo = async()=>{
